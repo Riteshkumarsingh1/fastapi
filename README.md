@@ -1,42 +1,190 @@
-# 🚀 FastAPI - Dynamic Routes & Request Handling
+# 🚀 FastAPI - This playlist is intended for learning FastAPI progressively, with a focus on building practical APIs and understanding modern Python backend development.
 
-A beginner-friendly FastAPI project demonstrating **dynamic routing**, **query parameters**, **request body handling** (dictionaries & Pydantic models), and file uploads. Built for learning and rapid prototyping.
+🎯 Learning Goals
 
-## 📋 Table of Contents
+By completing this playlist, you should aim to understand:
 
-- [Tech Stack](#tech-stack)
-- [Features](#features)
-- [Setup & Installation](#setup--installation)
-- [Running the Server](#running-the-server)
-- [API Endpoints](#api-endpoints)
-- [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
+FastAPI fundamentals and project setup
 
----
+API routing and HTTP methods
 
-## 🛠️ Tech Stack
+Path and query parameters
 
-- **[FastAPI](https://fastapi.tiangolo.com/)** - Modern web framework for building APIs.
-- **[Uvicorn](https://www.uvicorn.org/)** - ASGI server for running FastAPI.
-- **[Pydantic](https://docs.pydantic.dev/)** - Data validation and settings management using Python type hints.
-- **Python 3.10+**
+Request and response handling
 
----
+Data validation with Pydantic
 
-## ✨ Features
+REST API development
 
-- **Query Parameters** - Handle optional and required query params (e.g., `/items?name=Apple&price=100`).
-- **Request Body (Dict)** - Accept raw JSON dictionaries.
-- **Request Body (Pydantic)** - Validate incoming JSON using Pydantic `BaseModel`.
-- **Dynamic Routes** - Modular routing structure for scalability.
-- **File Uploads** - Ready for static and uploaded file handling (via `uploads/` folder).
+API documentation with Swagger UI
 
----
+Database integration
 
-## ⚙️ Setup & Installation
+CRUD operations
 
-### 1. Clone the Repository
+Authentication and authorization
 
-```bash
-git clone https://github.com/Riteshkumarsingh1/fastapi.git
-cd fastapi
+File handling and uploads
+
+Pagination
+
+Caching
+
+Web crawling / API integration
+
+Async programming
+
+Error handling
+
+API testing
+
+Deployment and production practices
+
+🧠 Recommended Learning Approach
+
+1. Learn the concept
+
+Watch the lesson carefully and understand why a feature is used.
+
+2. Code along
+
+Write the code yourself instead of only watching the instructor.
+
+3. Experiment
+
+After completing each topic, change the example and test your own use case.
+
+4. Build projects
+
+Combine multiple concepts into complete FastAPI applications.
+
+5. Prepare for interviews
+
+For every topic, be able to explain:
+
+What is it?
+
+Why is it used?
+
+How does it work?
+
+What are its advantages/disadvantages?
+
+When would you use it in a real project?
+
+🛠️ Suggested Project Ideas
+
+After completing the course, try building:
+
+File Upload API
+
+Blog REST API
+
+Authentication API
+
+Student Management API
+
+E-commerce Backend
+
+URL Shortener API
+
+PDF/RAG Backend API
+
+Web Scraping API with Pagination and Caching
+
+📌 Important FastAPI Topics
+
+FastAPI
+├── Routing
+├── Path Parameters
+├── Query Parameters
+├── Request Body
+├── Pydantic
+├── Response Models
+├── Dependency Injection
+├── Middleware
+├── Authentication
+├── Authorization
+├── Database
+├── CRUD
+├── File Upload
+├── Static Files
+├── Pagination
+├── Caching
+├── Async / Await
+├── Testing
+└── Deployment
+
+🎤 Interview Preparation
+
+While learning, focus especially on:
+
+FastAPI vs Flask
+
+ASGI vs WSGI
+
+async vs sync
+
+Pydantic and data validation
+
+Dependency Injection
+
+JWT authentication
+
+REST API principles
+
+HTTP status codes
+
+SQLAlchemy and database integration
+
+Middleware
+
+Pagination
+
+Caching
+
+File uploads and UploadFile
+
+Swagger / OpenAPI
+
+API security
+
+API testing and deployment
+
+✅ Progress Checklist
+
+FastAPI basics
+
+Routing
+
+Path & Query Parameters
+
+Request & Response Models
+
+Pydantic
+
+CRUD APIs
+
+Database Integration
+
+Authentication
+
+Authorization
+
+File Uploads
+
+Static Files
+
+Pagination
+
+Caching
+
+Async Programming
+
+Middleware
+
+Testing
+
+Deployment
+
+Build a complete FastAPI project
